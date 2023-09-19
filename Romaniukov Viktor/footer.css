@@ -1,0 +1,29 @@
+.footer {
+  color: white;
+  height: 150px;
+  background-color: hsl(237.95deg 79.59% 28.82%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer1 {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+a {
+  color: white;
+}
+.footer1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer1-response {
+  display: none;
+}
+.footer1-response-1 {
+  text-align: center;
+}

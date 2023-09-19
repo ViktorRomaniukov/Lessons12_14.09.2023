@@ -1,0 +1,13 @@
+.banner {
+  background-image: url(./1674922993_bogatyr-club-p-fon-dlya-bannera-sovremennii-fon-vkontakte-22.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-img {
+  text-align: center;
+}

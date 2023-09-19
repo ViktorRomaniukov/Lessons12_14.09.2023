@@ -1,0 +1,56 @@
+.content3-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .content3-img-response {
+    display: none;
+  }
+  .content3-img-1-response {
+    background: white;
+    height: auto;
+    width: 300px;
+    padding:10px 20px 15px 20px;
+    margin: 10px;
+  }
+  .content3-h4 {
+    display: block;
+  }
+  .foto2 {
+    width: 230px;
+    height: 230px;
+  }
+  .foto4 {
+    width: 150px;
+    height: 150px;
+  }
+  .content3-text {
+    font-weight: bold;
+  }
+  .accordion {
+
+  }
+  .accordion-item {
+    overflow: hidden;
+  }
+  .accordion-title {
+    background-color: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+  }
+  .accordion-content {
+    background-color: rgb(184, 177, 190);
+    max-height: 0;
+    transition: .5s;
+  }
+  .accordion-content p {
+    padding: 10px;
+  }
+  .accordion-content.active {
+    max-height: 200px;
+    transition: .5s;
+  }

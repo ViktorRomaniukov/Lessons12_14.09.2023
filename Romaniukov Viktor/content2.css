@@ -1,0 +1,32 @@
+.content2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .foto {
+    width: 320px;
+    height: 320px;
+  }
+  .response-content2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    display: none;
+    text-align: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  button {
+    color: white;
+    background-color: hsl(237.95deg 79.59% 28.82%);
+    margin: 10px 0 0 0;
+    cursor: pointer;
+  }

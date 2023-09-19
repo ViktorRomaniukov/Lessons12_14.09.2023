@@ -1,0 +1,35 @@
+.content1, .content2, .content3, .content4, .content5 {
+    margin: 0 80px 0 80px;
+}
+h1 {
+  text-align: center;
+}
+.content-menu1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.content-menu1-text {
+  width: 50%;
+}
+.content-menu1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+}
+.foto3 {
+  width: 400px;
+  height: auto;
+}
+.content-menu1-response {
+  display: none;
+}
+.content-menu1-img-response {
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}

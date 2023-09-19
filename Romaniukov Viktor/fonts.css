@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Black.ttf') format('"ttf');
+    font-weigth: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Bold.ttf') format('"ttf');
+    font-weigth: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Italic.ttf') format('"ttf');
+    font-weigth: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-BoldItalic.ttf') format('"ttf');
+    font-weigth: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Medium.ttf') format('"ttf');
+    font-weigth: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Regular.ttf') format('"ttf');
+    font-weigth: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url('./Шрифт/Roboto-Thin.ttf') format('"ttf');
+    font-weigth: 300;
+    font-style: normal;
+}
+

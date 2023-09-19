@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+.header-menu {
+  display: flex;
+  gap: 20px;
+}
+.menu {
+  padding: 10px;
+  position: relative;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(18, 14, 225);
+}
+.menu a:hover {
+  left: 0;
+  width: 100%; /* На всю длинну текста */
+  height: 2px; /* Толщина подчеркивания */
+  text-decoration: underline;
+  color: rgb(138, 133, 133);
+}
+.header-menu-item svg {
+  height: 30px;
+}
+.header-menu-item {
+  cursor: pointer;
+  display: none;
+  }
+.header-menu-hidden {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 3px 0px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  min-height: 200px;
+  min-width: 95%;
+  right: -1px;
+  text-align: center;
+}
+/*.header-menu-item:hover .header-menu-hidden {
+    display: block;
+}*/
+.header-menu-hidden.active {
+  display: block;
+}

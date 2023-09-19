@@ -1,0 +1,29 @@
+.content4-img-1 {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .content4-img-2 {
+    display: flex;
+    padding: 10px;
+    width: 45%; 
+    min-width: 200px;
+    background-color: white;
+  }
+  h4 {
+    display: flex;
+    justify-content: right;
+    font: italic 1.2rem "Fira Sans", serif;
+    font-weight: bolder;
+  }
+  .content4-img-3 {
+    padding: 0 0 0 10px;
+  }
+  .content4-text {
+    margin: 0 0 16px 0;
+  }
+  .content4-img-1-response {
+    display: none;
+  }
